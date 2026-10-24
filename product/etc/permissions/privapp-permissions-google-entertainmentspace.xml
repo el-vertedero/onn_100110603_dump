@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+     <privapp-permissions package="com.google.android.apps.mediahome.launcher">
+         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+		 <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+		 <permission name="android.permission.GET_ACCOUNTS"/>
+		 <permission name="android.permission.GET_PACKAGE_SIZE"/>
+		 <permission name="android.permission.INTERNET"/>
+		 <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+		 <permission name="android.permission.QUERY_ALL_PACKAGES"/>
+		 <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+     </privapp-permissions>
+</permissions>

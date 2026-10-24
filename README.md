@@ -1,0 +1,14 @@
+# sys_mssi_t_64_cn_wifi-user 13 TP1A.220624.014 TTA.54 release-keys
+- manufacturer: onn
+- platform: mt6765
+- codename: 100110603
+- flavor: sys_mssi_t_64_cn_wifi-user
+- release: 13
+- id: TP1A.220624.014
+- incremental: TTA.54
+- tags: release-keys
+- fingerprint: onn/100110603/100110603:12/SP1A.210812.016/TTA.54:user/release-keys
+- is_ab: true
+- brand: onn
+- branch: sys_mssi_t_64_cn_wifi-user-13-TP1A.220624.014-TTA.54-release-keys
+- repo: onn_100110603_dump

@@ -1,0 +1,17 @@
+on boot
+#for journey_root mode start
+   chown shell system /dev/usb-ffs
+   chmod 775 /dev/usb-ffs
+   chown shell system /dev/usb-ffs/adb
+   chmod 770 /dev/usb-ffs/adb
+   chown shell system /dev/usb-ffs/adb/ep0
+   chmod 660 /dev/usb-ffs/adb/ep0
+   chmod 0775 /mnt/persist/misc/FTM_APP
+   chmod 0775 /mnt/persist/misc/FTM_APP/FTM_report
+
+on property:service.adb.journey.root=*
+   chown shell system /dev/usb-ffs/adb/ep1
+   chmod 660 /dev/usb-ffs/adb/ep1
+   chown shell system /dev/usb-ffs/adb/ep2
+   chmod 660 /dev/usb-ffs/adb/ep2
+#for journey_root mode end

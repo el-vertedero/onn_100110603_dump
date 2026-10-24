@@ -1,0 +1,5 @@
+on property:ro.boot.sku=*
+   setprop ro.boot.wificountrycode US
+
+on property:ro.boot.sku=CA
+   setprop ro.boot.wificountrycode CA
